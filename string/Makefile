@@ -5,16 +5,28 @@
 ## Makefile
 ##
 
-NAME = lib_string.a
+NAME = my_string.a
 
-src = strcat.c
+SRC = my_strcasecmp.c\
+	my_strcasestr.c\
+	my_strcat.c\
+	my_strcmp.c\
+	my_strcpy.c\
+	my_strdup.c\
+	my_strlen.c\
+	my_strncasecmp.c\
+	my_strncat.c\
+	my_strncmp.c\
+	my_strncpy.c\
+	my_strndup.c\
+	my_strstr.c
 
 OBJ = $(SRC:.c=.o)
 
-CFLAGS += -Iincludes/
+CFLAGS += -I../includes/
 
 all: $(OBJ)
-	gcc -o $(NAME) $(OBJ) $(CFLAGS)
+	ar rc $(NAME) $(OBJ)
 
 clean:
 	rm -f $(OBJ)
