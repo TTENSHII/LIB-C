@@ -13,7 +13,6 @@ char *my_strcpy(char *dest, char const *src)
 
     if (src == NULL || dest == NULL)
         return (NULL);
-
     while (src[i] != '\0') {
         dest[i] = src[i];
         i++;

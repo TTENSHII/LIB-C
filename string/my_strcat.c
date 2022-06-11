@@ -11,8 +11,10 @@ char *my_strcat(char *dest, const char *src)
 {
     int index = 0, index2 = 0;
 
-    if (dest == NULL) return (NULL);
-    if (src == NULL) return (dest);
+    if (dest == NULL)
+        return (NULL);
+    if (src == NULL)
+        return (dest);
 
     while (dest[index] != '\0')
         index++;

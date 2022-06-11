@@ -13,7 +13,6 @@ int my_strlen(char const *str)
 
     if (str == NULL)
         return (0);
-
     while (str[i] != '\0') {
         i++;
     }
