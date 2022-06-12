@@ -2,10 +2,10 @@
 ** EPITECH PROJECT, 2022
 ** LIB-C
 ** File description:
-** my_strcasecmp
+** my_strncasecmp
 */
 
-#include "my_string.h"
+#include "my_strings.h"
 #include <stddef.h>
 
 static void upper_to_lower(char *str)
@@ -19,7 +19,7 @@ static void upper_to_lower(char *str)
     }
 }
 
-int my_strcasecmp(char const *s1, char const *s2)
+int my_strncasecmp(char const *s1, char const *s2, size_t n)
 {
     int index = 0;
     char *str1 = my_strdup(s1);
@@ -29,10 +29,10 @@ int my_strcasecmp(char const *s1, char const *s2)
         return (0);
     upper_to_lower(str1);
     upper_to_lower(str2);
-    while (str1[index] != '\0' && str2[index] != '\0') {
+    while (str1[index] != '\0' && str2[index] != '\0' && index < n) {
         if (str1[index] != str2[index])
             return (str1[index] - str2[index]);
         index += 1;
     }
-    return (str1[index] - str2[index]);
+    return (str1[index - 1] - str2[index - 1]);
 }

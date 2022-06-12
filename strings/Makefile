@@ -5,7 +5,7 @@
 ## Makefile
 ##
 
-NAME = my_string.a
+NAME = my_strings.a
 
 SRC = my_strcasecmp.c\
 	my_strcasestr.c\

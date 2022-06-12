@@ -5,8 +5,8 @@
 ** my_string
 */
 
-#ifndef MY_STRING_H_
-    #define MY_STRING_H_
+#ifndef MY_STRINGS_H_
+    #define MY_STRINGS_H_
     #include <stddef.h>
 
 /**
