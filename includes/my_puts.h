@@ -36,4 +36,12 @@ int my_puterror(char const *str);
 **/
 void my_putnbr(int nb);
 
+/**
+** @brief Write a number in the given base
+** @param number
+** @param base
+** @return 0 if success, 1 if error
+**/
+int my_putnbr_base(int number, char const *base);
+
 #endif

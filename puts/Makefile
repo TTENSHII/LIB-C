@@ -10,7 +10,8 @@ NAME = my_puts.a
 SRC = my_putchar.c\
 	my_putstr.c\
 	my_puterror.c\
-	my_putnbr.c
+	my_putnbr.c\
+	my_putnbr_base.c
 
 OBJ = $(SRC:.c=.o)
 
