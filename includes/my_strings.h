@@ -113,4 +113,11 @@ char *my_strstr(char const *haystack, char const *needle);
 **/
 char *my_strcasestr(char const *haystack, char const *needle);
 
+/**
+** @brief Reverse a string
+** @param str
+** @return Pointer to the reversed str, NULL if error
+**/
+char *my_strrev(char *str);
+
 #endif

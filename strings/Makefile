@@ -19,7 +19,8 @@ SRC = my_strcasecmp.c\
 	my_strncmp.c\
 	my_strncpy.c\
 	my_strndup.c\
-	my_strstr.c
+	my_strstr.c\
+	my_strrev.c
 
 OBJ = $(SRC:.c=.o)
 
