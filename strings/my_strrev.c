@@ -12,7 +12,6 @@ char *my_strrev(char *str)
 {
     int len = my_strlen(str);
     char temp = '\0';
-    int index_temp = 0;
 
     if (str == NULL)
         return (NULL);

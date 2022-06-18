@@ -120,4 +120,25 @@ char *my_strcasestr(char const *haystack, char const *needle);
 **/
 char *my_strrev(char *str);
 
+/**
+** @brief Convert an integer to a string
+** @param nb
+** @return Pointer to the new str, NULL if error
+**/
+char *my_itoa(int nb);
+
+/**
+** @brief Convert a string to an integer | Stop at the first nondigit character
+** @param str
+** @return The string converted to an integer, 0 if error
+**/
+int my_atoi(char *str);
+
+/**
+** @brief Convert a string to an integer | Stop at the first nondigit character
+** @param str
+** @return The string converted to a float, 0 if error
+**/
+float my_atof(char *str);
+
 #endif
