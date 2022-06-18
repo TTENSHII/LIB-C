@@ -8,7 +8,8 @@
 NAME = my_others.a
 
 SRC = convert_number_base.c\
-	my_sqrt.c
+	my_sqrt.c\
+	file_to_string.c
 
 OBJ = $(SRC:.c=.o)
 
