@@ -23,7 +23,8 @@ SRC = my_strcasecmp.c\
 	my_strrev.c\
 	my_itoa.c\
 	my_atoi.c\
-	my_atof.c
+	my_atof.c\
+	my_strings_concatenator.c
 
 OBJ = $(SRC:.c=.o)
 

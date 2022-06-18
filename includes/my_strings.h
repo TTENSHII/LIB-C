@@ -141,4 +141,14 @@ int my_atoi(char *str);
 **/
 float my_atof(char *str);
 
+/**
+** @brief Concatenate all strings
+** @param bool space separator
+** @param first first string
+** @param ...
+** @param NULL to end the list
+** @return Pointer to the new string, NULL if error
+**/
+char *my_strings_concatenator(bool space, char *str, ...);
+
 #endif

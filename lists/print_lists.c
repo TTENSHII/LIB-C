@@ -5,3 +5,14 @@
 ** print_lists
 */
 
+#include "my_lists.h"
+
+void print_list(list_t *list)
+{
+    list_t *tmp = list;
+
+    while (tmp) {
+        my_putstr(tmp->data);
+        tmp = tmp->next;
+    }
+}
