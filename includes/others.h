@@ -31,4 +31,11 @@ double my_sqrt(double number);
 **/
 float sqrtf(float number);
 
+/**
+** @brief Get a file and put it in a char *
+** @param path
+** @return string | NULL if error
+**/
+char *file_to_string(char *path);
+
 #endif
