@@ -8,6 +8,7 @@
 #ifndef MY_STRINGS_H_
     #define MY_STRINGS_H_
     #include <stddef.h>
+    #include <stdbool.h>
 
 /**
 ** @brief Concatenate two strings and write the \0 at the end

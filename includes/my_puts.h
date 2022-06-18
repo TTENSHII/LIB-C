@@ -44,4 +44,11 @@ void my_putnbr(int nb);
 **/
 int my_putnbr_base(int number, char const *base);
 
+/**
+** @brief Write a string with a line break at the end
+** @param str
+** @return number of characters written | 0 if error
+**/
+int my_puts(char const *str);
+
 #endif
