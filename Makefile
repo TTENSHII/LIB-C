@@ -20,8 +20,8 @@ LIB_OTHERS = others/my_others.a
 ALL_LIBS = $(LIB_PUTS) $(LIB_STRING) $(LIB_LISTS) $(LIB_ARRAYS) $(LIB_OTHERS)
 
 # -----------COLORS----------------
-GREEN = "\033[32m"
-RESET = "\033[0m"
+GREEN = '\033[32m'
+RESET = '\033[0m'
 
 # -----------MAKEFILE----------------
 
@@ -30,7 +30,7 @@ RESET = "\033[0m"
 
 all: $(ALL_LIBS)
 	ar rcT $(NAME) $(ALL_LIBS)
-	echo $(GREEN)'[LIB] done'$(RESET)
+	echo -e $(GREEN)'[LIB $(NAME)] done'$(RESET)
 
 clean:
 	@$(MAKE) -C $(dir $(LIB_PUTS)) clean

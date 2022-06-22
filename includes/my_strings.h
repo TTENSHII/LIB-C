@@ -152,4 +152,18 @@ float my_atof(char *str);
 **/
 char *my_strings_concatenator(bool space, char *str, ...);
 
+/**
+** @brief Set all characters in upper case
+** @param str
+** @return Pointer to str
+**/
+char *my_str_to_uppercase(char *str);
+
+/**
+** @brief Set all characters in lower case
+** @param str
+** @return Pointer to str
+**/
+char *my_str_to_lowercase(char *str);
+
 #endif

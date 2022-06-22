@@ -24,7 +24,9 @@ SRC = my_strcasecmp.c\
 	my_itoa.c\
 	my_atoi.c\
 	my_atof.c\
-	my_strings_concatenator.c
+	my_strings_concatenator.c\
+	my_str_to_lowercase.c\
+	my_str_to_uppercase.c
 
 OBJ = $(SRC:.c=.o)
 
