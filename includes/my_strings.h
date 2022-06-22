@@ -166,4 +166,25 @@ char *my_str_to_uppercase(char *str);
 **/
 char *my_str_to_lowercase(char *str);
 
+/**
+** @brief Check if the char is an alphabetical character
+** @param char
+** @return true if char is an alphabetical character, false otherwise
+**/
+bool is_alpha(char c);
+
+/**
+** @brief Check if the char is a digit
+** @param char
+** @return true if char is a digit, false otherwise
+**/
+bool is_digit(char c);
+
+/**
+** @brief Check if the number is negative
+** @param nb
+** @return True if nb is negative, false otherwise
+**/
+bool is_negative(int nb);
+
 #endif

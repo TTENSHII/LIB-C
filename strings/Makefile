@@ -26,7 +26,10 @@ SRC = my_strcasecmp.c\
 	my_atof.c\
 	my_strings_concatenator.c\
 	my_str_to_lowercase.c\
-	my_str_to_uppercase.c
+	my_str_to_uppercase.c\
+	my_is_alpha.c\
+	my_is_digit.c\
+	my_is_negative.c
 
 OBJ = $(SRC:.c=.o)
 

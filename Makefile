@@ -30,7 +30,7 @@ RESET = '\033[0m'
 
 all: $(ALL_LIBS)
 	ar rcT $(NAME) $(ALL_LIBS)
-	echo -e $(GREEN)'[LIB $(NAME)] done'$(RESET)
+	@echo -e $(GREEN)'[LIB $(NAME)] done'$(RESET)
 
 clean:
 	@$(MAKE) -C $(dir $(LIB_PUTS)) clean
