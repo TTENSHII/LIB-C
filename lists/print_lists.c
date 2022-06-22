@@ -17,3 +17,13 @@ void print_list(list_t *list)
         tmp = tmp->next;
     }
 }
+
+void print_double_list(double_list_t *list)
+{
+    double_list_t *tmp = list;
+
+    while (tmp) {
+        my_putstr(tmp->data);
+        tmp = tmp->next;
+    }
+}
